@@ -76,22 +76,17 @@ Invoke-PS2EXE `
     -InputFile  ".\M365-laps-reader.ps1" `
     -OutputFile ".\M365-laps-reader.exe" `
     -NoConsole `
+    -IconFile   ".\app.ico" `
     -Title       "LAPS Reader" `
     -Description "LAPS password reader for Entra / Intune" `
-    -Company     "Your Company" `
-    -Version     "1.0.0.0"
+    -Company     "Conexia Sàrl" `
+    -Version     "1.0.1"
 ```
 
 | Parameter | Purpose |
 |-----------|---------|
 | `-NoConsole` | Hides the PowerShell console so only the GUI window appears (**required**) |
 | `-Title` / `-Description` / `-Company` / `-Version` | Metadata shown in the file properties |
-
-### 3. (Optional) Add an icon
-
-```powershell
-Invoke-PS2EXE -InputFile ".\M365-laps-reader.ps1" -OutputFile ".\M365-laps-reader.exe" -NoConsole -IconFile ".\icon.ico"
-```
 
 > **Note:** the compiled `.exe` still requires the **Microsoft.Graph** module to be installed on the machine where it runs. The module is not embedded in the executable. Either install it on each machine, or ship it alongside the tool.
 
