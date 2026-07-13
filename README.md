@@ -127,4 +127,4 @@ This is the same API the Intune portal uses to display LAPS passwords.
 
 ## Licence
 
-This project is distributed under the **MIT** license. You are free to use, modify, and redistribute it, including for commercial purposes, provided you retain the copyright notice. See the [`LICENSE`](LICENSE) file for the full text.This project is distributed under the **MIT** license. You are free to use, modify, and redistribute it, including for commercial purposes, provided you retain the copyright notice. See the [`LICENSE`](LICENSE) file for the full text.This project is distributed under the **MIT** license. You are free to use, modify, and redistribute it, including for commercial purposes, provided you retain the copyright notice. See the [`LICENSE`](LICENSE) file for the full text.
+This project is distributed under the **MIT** license. You are free to use, modify, and redistribute it, including for commercial purposes, provided you retain the copyright notice. See the [`LICENSE`](LICENSE) file for the full text.
